@@ -1,0 +1,91 @@
+<html>
+<head>
+	<title>The Midas List 2015 Interactive</title>
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<!-- <meta name="viewport" content="width=device-width, maximum-scale=2.0" /> -->
+	<meta name="description" content="Breaking onto the Midas List of tech's top investors gets more difficult every year. There were only 15 newcomers to the list in 2015, down from 19 last year, and nine of them showed up in the bottom third of the list. Those who do get on tend to make consecutive appearances." />
+	<meta name="apple-itunes-app" content="app-id=588647136" />
+	<meta property="og:title" content="Midas List 2015 Interactive" />
+	<meta property="og:site_name" content="Forbes" />
+	<meta property="og:url" content="http://forbes.com/data/midas-interactive-2015/" />
+	<meta property="og:image" content="http://images.forbes.com/media/assets/forbes_1200x1200.jpg" />
+	<meta name="sailthru.image.full" content="http://images.forbes.com/media/assets/forbes_1200x1200.jpg" />
+	<meta property="og:description" content="Breaking onto the Midas List of tech's top investors gets more difficult every year. There were only 15 newcomers to the list in 2015, down from 19 last year, and nine of them showed up in the bottom third of the list. Those who do get on tend to make consecutive appearances." />
+	<meta property="fb:app_id" content="123694841080850" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@forbes" />
+
+	<meta name="twitter:image" content="http://i.forbesimg.com/media/lists/people/jim-goetz_650x455.jpg" />
+	<meta name="twitter:image:width" content="650" />
+	<meta name="twitter:image:height" content="455" />
+
+
+	<link rel="canonical"   href="http://forbes.com/data/midas-interactive-2015/" />
+	<link rel="shortlink"   href="http://onforb.es/1byq7s7" />
+</head>
+	<body>
+
+		<div id="topBar" class="cf">
+			<a target="_blank" class="logoLink" href="http://forbes.com">
+				<img src="img/forbes_logo_white.png">
+			</a>
+			<div class="barInfo">
+				<ul class="linkList">
+					<li class="navLinks"><p class="navLink"><a href="http://onforb.es/1Bu2KWI" target="_blank">Full Midas List</a></p></li>
+					<li class="navLinks"><p class="navLink"><a href="http://onforb.es/1ydZ4a2" target="_blank">Top Firms</a></p></li>
+					<li class="navLinks"><p class="navLink"><a href="http://onforb.es/1NjJMYl" target="_blank">Newcomers</a></p></li>
+					<li class="navLinks"><p class="navLink clickToTop"><a>Back to Top</a></p></li>
+				</ul>
+			</div>
+			<div class="share">
+				<i class="fa fa-2x fa-facebook"></i>
+				<i class="fa fa-2x fa-twitter"></i>
+			</div>
+		</div>
+
+		<div class="blurb top-blurb">
+			<h1>The Midas List</h1>
+			<p class="descriptor">Breaking onto the Midas List of tech's top investors gets more difficult every year. There were only 15 newcomers to the list in 2015, down from 19 last year, and nine of them showed up in the bottom third of the list. Those who do get on tend to make consecutive appearances. Here's how each of this year's Midas Listers have ranked over the last 10 years. Hover over a cell for more information and double click to read the investor's full profile.</p>
+		</div>
+		<div id="legend">
+			<div id="scale"></div>
+			<div id="scale-text">
+				<p style="float:left;">#1</p>
+				<p style="display:inline;margin-left:auto;margin-right:auto;">#50</p>
+				<p style="float:right;">#100</p>
+			</div>
+		</div>
+		<div id="chart"></div>
+
+		<script type="text/javascript" src="js/d3.min.js"></script>
+		<script type="text/javascript" src="js/colorbrewer.js"></script>
+		<script type="text/javascript" src="js/handlebars-v1.3.0.js"></script>
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/matrix.js"></script>
+		<script type="text/javascript" src="js/legend.js"></script>
+		<script type="text/x-handlebars-template" id="tooltip-template">
+
+			<p class="rank_2015">#{{ rank_2015 }}</p>
+			<p class="name">{{ name }}</p>
+			<p class="firm">{{ firm }}</p>
+			<p class="notable_deal">Notable Deal: {{ notable_deal }}</p>
+			<p class="nationality">Nationality: <strong>{{ citizenship }}</strong></p>
+			<p>Midas {{ year }}: #{{ rank }}</p>
+
+		</script>
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-61245535-1', 'auto');
+		ga('send', 'pageview');
+		</script>
+	</body>
+</html>
